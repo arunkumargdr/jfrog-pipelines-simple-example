@@ -17,7 +17,7 @@ pipelines:
     configuration:
       environmentVariables:
         readOnly:
-          my_env_var: "hello"  
+          my_env_var: "hello jfrog"  
     steps:
       - name: step_1
         type: Bash
